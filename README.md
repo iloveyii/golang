@@ -6,7 +6,7 @@ We will teach you Go language in seven days (chapters).
 
 # DAY 1 
 ## Installations
-- A go play ground [link](https://play.golang.org/)
+- A GoLang playground [link](https://play.golang.org/)
 - We will use docker container for the run time enviroment.
 - Write a docker file from [official image](https://hub.docker.com/_/golang)
 - Build image `docker build -t golang-app1 .`
@@ -15,7 +15,7 @@ We will teach you Go language in seven days (chapters).
 - Check go environment variables `go env`
 
 ## The basics
-- Hello world - 
+- Hello world app `main.go`
 ### Data types
 - These are the data types in go
 ```
