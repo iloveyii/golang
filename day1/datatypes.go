@@ -6,6 +6,11 @@ func main() {
 	// declare a variable with var - can specify exact data type
 	var id int16 = 16
 	var name string = "Ali"
+	const pi float32 = 3.14
+
+	fmt.Println("I am a constant ", pi)
+	// cannot assign to pi declared const
+	// pi = 3
 
 	fmt.Println(id, name)
 	fmt.Printf("Data types: %T, %T\n", id, name)
