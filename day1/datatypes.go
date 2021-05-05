@@ -2,11 +2,18 @@ package main
 
 import "fmt"
 
+// Glabal access
+var data int = 50
+// short notation cannot here - non declaration statement outside function body
+// data2 := 150
+
 func main() {
 	// declare a variable with var - can specify exact data type
 	var id int16 = 16
 	var name string = "Ali"
 	const pi float32 = 3.14
+
+	fmt.Println("Global access ", data)
 
 	fmt.Println("I am a constant ", pi)
 	// cannot assign to pi declared const
