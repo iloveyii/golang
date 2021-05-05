@@ -13,13 +13,7 @@ func main() {
 	var name string = "Ali"
 	const pi float32 = 3.14
 
-	fmt.Println("Global access ", data)
-
-	fmt.Println("I am a constant ", pi)
-	// cannot assign to pi declared const
-	// pi = 3
-
-	fmt.Println(id, name)
+		fmt.Println(id, name)
 	fmt.Printf("Data types: %T, %T\n", id, name)
 
 	// derivative - with default types - short notation
@@ -27,4 +21,14 @@ func main() {
 	name2 := "Bob"
 	fmt.Println(id2, name2)
 	fmt.Printf("Data types: %T, %T\n", id2, name2)
+
+	fmt.Println("Global access ", data)
+
+	fmt.Println("I am a constant ", pi)
+	// cannot assign to pi declared const
+	// pi = 3
+
+	// shorter version of declaration
+	student_name, email := "Doe" , "john@doe.com"
+	fmt.Println(student_name, email)
 } 
