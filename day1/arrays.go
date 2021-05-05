@@ -18,5 +18,8 @@ func main() {
 	// One liner - can ommit 2 in [2], use len(names)
 	names := [2]string{"john", "doe"}
 	fmt.Println("Names :: ", names, len(names))
+
+	// Take a slice or subarr . start:0-indexed, stop:1-indexed, inclusive
+	fmt.Println("Slice :: ", rolls[1:3])
 	
 }
