@@ -48,13 +48,13 @@ complex64 complex128
 - Its syntax is very different ` emails := map[string]string{"name":"em@il.com"`}
 
 # DAY 2
-### Pointer
+### Struct
+- This is the most interesting and useful topic in Golang
+### Web
 
 ### Repository, modules and packages 
 - [docs](https://golang.org/doc/code)
 - [packages](https://pkg.go.dev/)
-### Struct
-### Web
 
 # DAY 3
 ### Database
