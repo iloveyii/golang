@@ -2,12 +2,18 @@ package main
 
 import "fmt"
 
+// Declare
 type Rectangle struct {
-	length int
-	width int
+	length float32
+	width float32
+}
+
+// Add a function to struct
+func (r Rectangle) area() float32 {
+	return r.length * r.width
 }
 
 func main() {
 	r := Rectangle{length: 10, width: 20}
-	fmt.Println(r)
+	fmt.Println(" Area of ", r, " is :: ", r.area())
 }
