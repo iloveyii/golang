@@ -9,7 +9,7 @@ We will teach you Go language in seven days (chapters).
 - We will use docker container for the run time enviroment.
 - Write a docker file from [official image](https://hub.docker.com/_/golang)
 - Build image `docker build -t golang-app1 .`
-- Run it `docker run -it --rm --name golang-running-app1 golang-app1`
+- Run it `docker run -it --rm -v /home/alex/projects/golang/day1/:/go/src/app/day1/ --name golang-running-app1 golang-app1`
 
 ## The basics
 ### Data types
