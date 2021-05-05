@@ -29,17 +29,20 @@ float32 float64
 complex64 complex128
 
 ```
+### Import
+### Function
 ### Arrays
-### Maps
+### Conditions if else
 ### Loops
-### Functions
+### Maps
 
 # DAY 2
+### Pointer
+
 ### Repository, modules and packages 
 - [docs](https://golang.org/doc/code)
 - [packages](https://pkg.go.dev/)
 ### Struct
-### Pointer
 ### Web
 
 # DAY 3
@@ -49,3 +52,8 @@ complex64 complex128
 # DAY 5
 # DAY 6
 # DAY 7
+## Workshops
+### FizzBuzz
+### A simple web app with Database
+### Serve React app
+### Google API app

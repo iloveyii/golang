@@ -21,5 +21,10 @@ func main() {
 
 	// Take a slice or subarr . start:0-indexed, stop:1-indexed, inclusive
 	fmt.Println("Slice :: ", rolls[1:3])
+
+	// Iterate over array - range is like each
+	for i, value := range rolls {
+		fmt.Println(" Index and roll :: ", i, value)
+	}
 	
 }
