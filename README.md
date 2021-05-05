@@ -30,11 +30,22 @@ complex64 complex128
 
 ```
 ### Import
+- import keyword is used to import a package
 ### Function
+- Similar to other programming languages
+- Can pass by value or ref
 ### Arrays
+- Collections of similar data types, 0 indexed
+- Can slice like in python arr[start: stop]
+- Its syntax is different `rolls := [2]int{1,2}`
 ### Conditions if else
+- Similar to other programming languages
 ### Loops
+- For loop can be used as either while or for
 ### Maps
+- It is like an associative array
+- Iterate over using `range` keyword
+- Its syntax is very different ` emails := map[string]string{"name":"em@il.com"`}
 
 # DAY 2
 ### Pointer
