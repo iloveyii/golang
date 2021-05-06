@@ -50,6 +50,13 @@ complex64 complex128
 # DAY 2
 ### Struct
 - This is the most interesting and useful topic in Golang
+- A data struture declaration
+### Interface
+- Like struct but it can contain method declarations
+- Defines method signature
+- In go there is no obvious relationship/implementation of interface
+- The relationship is only visible/checked when you pass a struct (with same method as interface declares) to a method expecting a similar interface as parameter. 
+
 ### Web
 
 ### Repository, modules and packages 

@@ -9,7 +9,7 @@ type Rectangle struct {
 	length, width float32
 }
 
-// Add/Bind a function to struct
+// Add/Bind a function to struct ie: Rectangle has area method
 func (r Rectangle) area() float32 {
 	return r.length * r.width
 }
