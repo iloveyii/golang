@@ -4,11 +4,12 @@ import "fmt"
 
 // Declare
 type Rectangle struct {
-	length float32
-	width float32
+	// length float32
+	// width float32
+	length, width float32
 }
 
-// Add a function to struct
+// Add/Bind a function to struct
 func (r Rectangle) area() float32 {
 	return r.length * r.width
 }
