@@ -23,5 +23,7 @@ func main() {
 	http.HandleFunc("/about", about)
 
 	fmt.Println("Server listening on port 3300")
+	// http://localhost:3300/info.png
+	// http://localhost:3300/index.html
 	http.ListenAndServe(":3300", fileServer) 
 }
