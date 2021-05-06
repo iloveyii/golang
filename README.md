@@ -11,6 +11,7 @@ We will teach you Go language in seven days (chapters).
 - Write a docker file from [official image](https://hub.docker.com/_/golang)
 - Build image `docker build -t golang-app1 .`
 - Run it `docker run -it --rm -v /home/alex/projects/golang/day1/:/go/src/app/day1/ --name golang-running-app1 golang-app1`
+- For web.go run `docker run -it --rm -v /home/alex/projects/golang/day2/:/go/src/app/day2/ -p 3300:3300 --name golang-running-app1 golang-app1`
 - You will enter in the container shell, type `go version`
 - Check go environment variables `go env`
 
@@ -59,11 +60,12 @@ complex64 complex128
 
 ### Web
 
+
+
+# DAY 3
 ### Repository, modules and packages 
 - [docs](https://golang.org/doc/code)
 - [packages](https://pkg.go.dev/)
-
-# DAY 3
 ### Database
 
 # DAY 4
